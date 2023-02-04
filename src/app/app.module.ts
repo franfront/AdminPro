@@ -8,7 +8,6 @@ import { AuthModule } from './auth/auth.module';
 import { AppComponent } from './app.component';
 import { NofoundComponent } from './nofound/nofound.component';
 
-
 @NgModule({
   declarations: [AppComponent, NofoundComponent],
   imports: [BrowserModule, AppRoutingModule, PagesModule, AuthModule],

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ChartConfiguration } from 'chart.js';
 
 @Component({
   selector: 'app-grafica1',
@@ -12,5 +13,9 @@ export class Grafica1Component implements OnInit {
 
   ngOnInit(): void {
   }
+
+
+
+
 
 }
